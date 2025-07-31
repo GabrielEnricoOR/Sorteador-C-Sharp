@@ -1,12 +1,12 @@
 namespace Sorteador
 {
-    public partial class Form1 : Form
+    public partial class Sorteador : Form
     {
         List<string> listaString = new List<string>();
 
 
         private static Random rand = new Random();
-        public Form1()
+        public Sorteador()
         {
             InitializeComponent();
         }

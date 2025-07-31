@@ -1,6 +1,6 @@
 ﻿namespace Sorteador
 {
-    partial class Form1
+    partial class Sorteador
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sorteador));
             label1 = new Label();
             txtItems = new TextBox();
             label2 = new Label();
@@ -134,7 +135,7 @@
             btnAdicionar.UseVisualStyleBackColor = false;
             btnAdicionar.Click += btnAdicionar_Click;
             // 
-            // Form1
+            // Sorteador
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -148,8 +149,12 @@
             Controls.Add(label2);
             Controls.Add(txtItems);
             Controls.Add(label1);
-            Name = "Form1";
-            Text = "Form1";
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            Name = "Sorteador";
+            SizeGripStyle = SizeGripStyle.Hide;
+            Text = "Sorteador";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
