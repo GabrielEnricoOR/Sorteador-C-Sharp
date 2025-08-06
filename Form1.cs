@@ -15,7 +15,7 @@ namespace Sorteador
         {
             listaString.Add(txtItems.Text);
             txtItems.Text = "";
-
+            txtItems.Focus();
 
             Listar();
         }
