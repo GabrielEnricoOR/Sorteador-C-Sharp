@@ -48,7 +48,7 @@
             label1.Name = "label1";
             label1.Size = new Size(776, 85);
             label1.TabIndex = 0;
-            label1.Text = "🎲 Sorteador ";
+            label1.Text = "Sorteador ";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // txtItems
@@ -89,7 +89,7 @@
             btnSortear.Name = "btnSortear";
             btnSortear.Size = new Size(259, 60);
             btnSortear.TabIndex = 4;
-            btnSortear.Text = "🔁 Sortear";
+            btnSortear.Text = "Sortear";
             btnSortear.UseVisualStyleBackColor = false;
             btnSortear.Click += btnSortear_Click;
             // 
@@ -101,7 +101,7 @@
             btnLimpar.Name = "btnLimpar";
             btnLimpar.Size = new Size(259, 60);
             btnLimpar.TabIndex = 5;
-            btnLimpar.Text = "\U0001f9f9 Limpar lista";
+            btnLimpar.Text = "Limpar lista";
             btnLimpar.UseVisualStyleBackColor = false;
             btnLimpar.MouseClick += btnLimpar_MouseClick;
             // 

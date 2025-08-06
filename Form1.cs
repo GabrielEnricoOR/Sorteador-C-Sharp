@@ -48,7 +48,9 @@ namespace Sorteador
             resultList.Items.Clear();
             int valorSorteio = rand.Next(listaString.Count);
             resultList.Items.Add(listaString[valorSorteio]);
-            
+
         }
+
+        
     }
 }
