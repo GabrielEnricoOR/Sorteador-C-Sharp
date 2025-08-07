@@ -1,4 +1,4 @@
-namespace Sorteador
+namespace Sorteador.src
 {
     internal static class Program
     {

@@ -31,7 +31,7 @@ Siga estes passos para clonar o repositório e executar o projeto em sua máquin
 
 1. Clone o repositório para sua máquina local:
    ```bash
-   git clone [https://github.com/GabrielEnricoOR/C-Sharp-Curso.git](https://github.com/GabrielEnricoOR/C-Sharp-Curso.git)
+   git clone https://github.com/GabrielEnricoOR/Sorteador-C-Sharp
    ```
 2. Abra a solução (.sln) no Visual Studio.
 
