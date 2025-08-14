@@ -30,8 +30,8 @@ Este é um projeto simples de um **sorteador de nomes ou números**, desenvolvid
 Siga estes passos para clonar o repositório e executar o projeto em sua máquina:
 
 1. Clone o repositório para sua máquina local:
-   ```bash
-   git clone https://github.com/GabrielEnricoOR/Sorteador-C-Sharp.git
+```bash
+git clone [https://github.com/GabrielEnricoOR/Sorteador-C-Sharp.git](https://github.com/GabrielEnricoOR/Sorteador-C-Sharp.git)
    
 2. Abra a solução (.sln) no Visual Studio.
 
